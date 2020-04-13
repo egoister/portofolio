@@ -1,0 +1,152 @@
+body ,ul{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size:15px;
+}
+
+h1{
+	font-family: 'Barrio', cursive;
+	font-size: 100px;
+	line-height: 110%;
+}
+
+h2{
+font-size: 30px;
+line-height: 130%;
+}
+
+h1,h2{
+	font-weight: normal; /*ovo mijenja debljinu, bold jer po defaultu svaki ehading je boldovan*/
+
+}
+
+ul li{
+	list-style: none;
+	margin:10px 0;
+}
+
+p{
+	line-height: 150%;
+}
+
+.skills-list{
+	font-family: 'Bubbler One', sans-serif;
+}
+img{
+	max-width: 100%;
+
+}
+header{
+	top: 70px;
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 220px;
+	background-image:url('img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -160px;
+	text-align: center;
+	border: 1px solid black;
+
+}
+.header-image{
+	margin-top: 30px;
+
+}
+nav{
+	background-color: white;
+	position: fixed;
+	z-index:1;/*da li je iza svih objekata ili ispred, veci broj je vise*/
+	width: 100%;
+}
+nav ul li{
+	display:inline-block;
+	margin: 0 15px; /*0 je za gore i dole, 15 za izmedju,tj denso lijevo*/
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+li.empty{
+	width: 90px;
+	border-top:1px solid black;
+	top: -5px;
+	position: relative;	
+}
+
+
+nav ul{
+	/* kod margin 0  je za gore dole a auto za lijevo desno*/
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+nav li a{
+	text-decoration: none;
+	color: black\;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+	background:yellow;
+
+}
+
+ .button{
+ 	border: 1px solid black;
+ 	text-decoration: none;
+ 	color: black;
+ 	padding: 10px 20px;
+ 	margin-top:40px; 
+ 	display:inline-block; /*inline block ovdje se dodaje jer a link ne daje da se stavi margina*/
+	border-radius: 20px; /* border radius da ne nbude kvadrat*/
+	transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .button:hover{
+  	background:black;
+  }
+
+  figcaption{
+  	font-size: 10px;
+  	margin-top: 10px;
+  }
+.skills-list{
+  	text-align: center;
+  	font-size: 50px;
+  	line-height: 150%;
+  	margin-bottom: 130px;
+  }
+.project{
+	margin:30px 0;
+	padding: 50px;
+}
+.pink{
+	background-color: #ffd9da
+}
+
+/*ako imamo button koji ima marginu i project u kojem je isto ima marginu, onda upisujemo ovo da se slozi fino*/
+.project .button{
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+	margin: 100px ;
+}
+
+footer h2{
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+.right-alignment{
+	text-align: right;
+}
+
+#transition{
+	 transition: width 2s linear 1s;
+} 
+
+
