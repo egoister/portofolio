@@ -48,12 +48,18 @@ header{
 	background-position-y: -160px;
 	text-align: center;
 	border: 1px solid black;
-
 }
 .header-image{
 	margin-top: 30px;
+	filter:contrast(0.8) brightness(1.2) saturate(1.4) blur(3px);
+	border:2px solid black;
+	padding:10px;
 
 }
+.header-image:hover{
+	filter:contrast(0.8) brightness(1.2) saturate(1.4) blur(0px);
+}
+
 nav{
 	background-color: white;
 	position: fixed;
